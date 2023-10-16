@@ -10,7 +10,7 @@ class Window:
 
     def create(self):
         pygame.init()
-        self.fenetre = pygame.display.set_mode((self.width, self.height))
+        self.fenetre = pygame.display.set_mode((self.width, self.height), pygame.RESIZABLE)
         pygame.display.set_caption(self.title)
 
     def update(self):
