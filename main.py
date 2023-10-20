@@ -5,6 +5,6 @@ if __name__ == "__main__":
     height = 960
     title = "PolyDoom"
 
-    Program = Prog(width, height, title)
+    program = Prog(width, height, title)
 
-    Program.run()
+    program.run()
